@@ -88,3 +88,14 @@ CREATE OR REPLACE FUNCTION public.plv8_test (ids text [], words text [], content
 		}
     return matchKeywords(ids,words,content)
 $function$
+-- SELECT
+-- 	plv8_test (ARRAY (
+-- 			SELECT
+-- 				"id"
+-- 			FROM
+-- 				"Keywords"),
+-- 			ARRAY (
+-- 				SELECT
+-- 					"title"
+-- 				FROM
+-- 					"Keywords"),'content to search.');
