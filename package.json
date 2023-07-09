@@ -1,0 +1,11 @@
+{
+  "name": "plv8-aho-orasick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "witcat",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
